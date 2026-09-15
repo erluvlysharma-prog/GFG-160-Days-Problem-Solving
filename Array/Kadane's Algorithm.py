@@ -1,3 +1,6 @@
+'''You are given an integer array arr[]. 
+You need to find the maximum sum of a subarray (containing at least one element) in the array arr[].'''
+
 class Solution:
     def maxSubarraySum(self, arr):
         current_sum = arr[0]
